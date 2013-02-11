@@ -470,7 +470,7 @@ class wpMailChimpFramework
 							</a>
 						</th>
 						<td>
-							<?php echo $this->ping(); ?>
+							<?php print_r($this->ping()); ?>
 							<p id="mc_status" style="display:none;"><?php _e("The current status of your server's connection to MailChimp", 'mailchimp-framework'); ?></p>
 						</td>
 					</tr>
