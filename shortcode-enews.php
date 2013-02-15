@@ -29,7 +29,7 @@ function enews_shortcode( $atts ) {
 		'text' => '', //text to show
 		'submit' => '', // submit text
 		'feedburner' => '', //FeedBurner ID
-		'newwindow' => FALSE,
+		'newwindow' => 0,
 	), $atts ) );
 
 	return "the form will be here";
