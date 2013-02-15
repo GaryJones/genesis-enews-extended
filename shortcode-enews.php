@@ -28,8 +28,10 @@ function enews_shortcode( $atts ) {
 		'title' => '',
 		'text' => '', //text to show
 		'submit' => '', // submit text
+		'feedburner' => '', //FeedBurner ID
+		'newwindow' => FALSE,
 	), $atts ) );
-	
+
 	return "the form will be here";
 }
 add_shortcode( 'enews', 'enews_shortcode' );
