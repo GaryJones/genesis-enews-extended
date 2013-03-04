@@ -53,6 +53,7 @@ Questions can be asked at the [WordPress.org Support Forum](http://wordpress.org
 
 = 1.1.1 =
 * Fixed bug with incorrect escaping function used in first and last name fields.
+* Fixed bug with some translations not working.
 
 = 1.1.0 =
 * Allows for more HTML tags to be used in Text to Show field. Dropped genesis_allowed_tags in favor or wp_kses_post. Props to [John Levandowski](http://wpselect.com/).
@@ -132,4 +133,4 @@ Verify plugin is active after update.
 Allows images in the "Text to Show" area.
 
 = 1.1.1 =
-Fixed bug in onclick clearing of first and last name fields.
+Fixed bug in onclick clearing of first and last name fields and translations that were not loading.
