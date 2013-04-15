@@ -3,8 +3,8 @@ Contributors: kraftbj, coffeaweb
 Donate link: http://www.brandonkraft.com/donate/
 Tags: genesis, genesiswp, mailchimp, aweber, studiopress, newsletter, subscribe
 Requires at least: 3.0
-Tested up to: 3.5.1
-Stable tag: 1.1.2
+Tested up to: 3.6
+Stable tag: 1.2.0
 
 Creates a new widget to easily add mailing lists integration to a Genesis website. Works with FeedBurner, MailChimp, AWeber, FeedBlitz and more.
 
@@ -51,9 +51,15 @@ Questions can be asked at the [WordPress.org Support Forum](http://wordpress.org
 
 == Changelog ==
 
+= x.x.x =
+* Adds option for HTML5-enhanced forms.
+* Adds error checking for including http://feeds.feedburner.com in the Feedburner ID field.
+
 = 1.2.0 =
 * Adds text space after form. Perfect for a link to a Privacy Statement!
 * Code cleanup. Thanks to [Kim Parsell](http://profiles.wordpress.org/kpdesign/) for reporting.
+* Adds labels to form elements to make it compatible with screen readers for the visually impaired.
+* Adds Serbian Translation. Props to Diana S.
 * Listing of issues [resolved in this version](https://github.com/kraftbj/genesis-enews-extended/issues?milestone=11&state=closed).
 
 = 1.1.2 =
@@ -149,4 +155,4 @@ Fixed bug in onclick clearing of first and last name fields and translations tha
 Fixed bug that prevents a mail service's validation to work correctly. Improved translations.
 
 = 1.2.0 =
-* Adds text space after form. Perfect for a link to a Privacy Statement!
+* Adds text space after form. Perfect for a link to a Privacy Statement! Add screen reader compatability.
